@@ -1,0 +1,21 @@
+# Voice + Whisper
+openai-whisper
+sounddevice
+scipy
+
+# Open-vocabulary region segmentation (finds ANY named object/region: grass, sun, sky, person, car...)
+transformers
+torch
+pillow
+
+# Image ops
+opencv-python
+numpy
+
+# Command understanding (turns free-form speech into structured JSON)
+groq
+python-dotenv
+python-dotenv
+
+# UI (Phase 3)
+streamlit
