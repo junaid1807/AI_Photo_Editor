@@ -57,7 +57,7 @@ def parse_command_llm(text: str) -> dict:
 
     client = Groq()  # reads GROQ_API_KEY from env
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",  # free-tier, strong instruction following
+        model="openai/gpt-oss-120b",  # replacement for deprecated llama-3.3-70b-versatile
         max_tokens=200,
         temperature=0,
         response_format={"type": "json_object"},
